@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./Asset/Css/app.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./Asset/Images/favicon.png" type="image/x-icon" />
+
+    <!-- Title -->
+    <title>Login and Registration</title>
+
+</head>
+
+<body>
+
+    <!-- Animation Glass -->
+    <div class="form-aimation">
+        <ul class="form-animation-glass">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- Form Main -->
+    <div class="form-wrapper">
+
+        <!-- Sign In -->
+        <div class="form-container form-signin">
+            <form action="#!" class="form-action">
+                <h2 class="form-title">Sign In</h2>
+                <div class="form-group">
+                    <input type="text" class="form-input" required>
+                    <label for="" class="form-label">User Name Or Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" required>
+                    <label for="" class="form-label">Password</label>
+                </div>
+                <div class="form-remember">
+                    <label for="" class="form-remember-label">
+                        <input type="checkbox" class="form-remember-input">Remember Me
+                    </label>
+                </div>
+                <button type="submit" class="form-button">Sign In</button>
+                <div class="form-link">
+                    <span>Don't have an account ?
+                        <a href="#!" class="signUpBtn-link">Sign Up</a>
+                    </span>
+                </div>
+                <div class="form-social">
+                    <span class="form-more">
+                        Or Sign In With
+                    </span>
+                    <div class="form-social-icon">
+                        <a href="https://www.facebook.com/" class="form-social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.google.com/" class="form-social-link">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="form-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sign Up -->
+        <div class="form-container form-signup">
+            <form action="#!" class="form-action">
+                <h2 class="form-title">Sign Up</h2>
+                <div class="form-group">
+                    <input type="text" class="form-input" required>
+                    <label for="" class="form-label">User Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" required>
+                    <label for="" class="form-label">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" required>
+                    <label for="" class="form-label">Password</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" required>
+                    <label for="" class="form-label">Confirm Password</label>
+                </div>
+                <div class="form-remember">
+                    <label for="" class="form-remember-label">
+                        <input type="checkbox" class="form-remember-input">I agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="submit" class="form-button">Sign Up</button>
+                <div class="form-link">
+                    <span>Already have an account ?
+                        <a href="#!" class="signInBtn-link">Sign In</a>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Main Js -->
+    <script src="./Asset/Js/app.js"></script>
+
+</body>
+
+</html>
+
+<!--  
+    Open Folder Integrated Terminal!
+    sass ./Asset/Sass/app.scss ./Asset/Css/app.css --watch
+-->
